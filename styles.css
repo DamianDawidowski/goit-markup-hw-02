@@ -20,12 +20,11 @@ body {
   color: #fff;
 }
 .col_3 {
-  color: #2196f3;}
+  color: #2196f3;
+}
 
-  .col_4 {
-    color: #000; 
-  }
-
+.col_4 {
+  color: #000;
 }
 /* selectors chosen by font weight */
 .roboto_400 {
