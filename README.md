@@ -1,2 +1,2 @@
-# goit-markup-hw-01
-project is hosted at htps://damiandawidowski.github.io/goit-markup-hw-01/
+# goit-markup-hw-02
+project is hosted at htps://damiandawidowski.github.io/goit-markup-hw-02/

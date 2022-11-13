@@ -1,37 +1,46 @@
 <!DOCTYPE html>
 <html lang="pl">
   <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link href="styles.css" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
-      <a href="#">WebStudio</a>
-      <nav>
+      <a class="logo" href="#">
+        <p class="col_3">Web</p>
+        <p class="col_2">Studio</p>
+      </a>
+      <nav class="navigation">
         <ul>
-          <li><a href="#">Agencja</a></li>
-          <li><a href="#">Portfolio</a></li>
+          <li><a href="index.html">Agencja</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="#">Kontakty</a></li>
         </ul>
       </nav>
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:+48111111111">+48 111 111 111</a>
+      <a class="col_1 font-size14 line-height16_14" href="mailto:info@devstudio.com"
+        >info@devstudio.com</a
+      >
+      <a class="col_1 font-size14 line-height16_14" href="tel:+48111111111">+48 111 111 111</a>
     </header>
     <main>
       <nav>
-        <ul>
-          <li><a href="#">Wszystkie</a></li>
-          <li><a href="#">Strony</a></li>
-          <li><a href="#">Aplikacje</a></li>
-          <li><a href="#">Dizajn</a></li>
-          <li><a href="#">Marketing</a></li>
+        <ul class="buttons">
+          <li><button class="inline" type="button">Wszystkie</button></li>
+          <li><button class="inline" type="button">Strony</button></li>
+          <li><button class="inline" type="button">Aplikacje</button></li>
+          <li><button class="inline" type="button">Dizajn</button></li>
+          <li><button class="inline" type="button">Marketing</button></li>
         </ul>
       </nav>
       <!--section: "Portfolio" -->
-      <section>
+      <section class="portfolio">
         <ul>
           <li>
             <img
@@ -40,7 +49,7 @@
               width="370"
               height="294"
             />
-            <h2 id="1">Technocrack</h2>
+            <h2>Technocrack</h2>
             <p>Strona internetowa</p>
           </li>
           <li>
@@ -121,12 +130,15 @@
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="#">WebStudio</a>
+    <footer class="footer">
+      <a class="logo" href="#">
+        <p class="logo col_3">Web</p>
+        <p class="logo col_2">Studio</p>
+      </a>
       <address>
-        <div>m. Warszawa, Aleje Jerozolimskie 21</div>
-        <a href="mailto:info@example.com">info@example.com</a>
-        <a href="tel:+48111111111">+48 111 111 111</a>
+        <div class="address col_2">m. Warszawa, Aleje Jerozolimskie 21</div>
+        <a class="address col_1 roboto_400" href="mailto:info@example.com">info@example.com</a>
+        <a class="address col_1 roboto_400" href="tel:+48111111111">+48 111 111 111</a>
       </address>
     </footer>
   </body>
