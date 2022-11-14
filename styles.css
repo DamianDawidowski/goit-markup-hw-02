@@ -122,6 +122,8 @@ body {
   color: #fff9;
 }
 .highlight:focus,
-.highlight:hover {
+.highlight:hover,
+.address-grey:focus,
+.address-grey:hover {
   color: #2196f3;
 }
