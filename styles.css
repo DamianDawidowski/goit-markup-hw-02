@@ -1,150 +1,127 @@
 body {
   font-family: Roboto, sans-serif;
-  font-weight: 700;
   color: #212121;
 }
 .logo {
   font-family: Raleway;
   display: inline-block;
-  font-size: 26px;
+  font-size: 1.625rem;
   line-height: 1.19;
+  color: #000;
+  font-weight: 700;
 }
-.logo p {
+.logo .span {
   display: inline-block;
 }
-/* selectors chosen by font color */
-.col_1 {
+.address {
   color: #757575;
-}
-.col_2 {
-  color: #fff;
-}
-.col_3 {
-  color: #2196f3;
-}
-
-.col_4 {
-  color: #000;
-}
-/* selectors chosen by font weight */
-.roboto_400 {
-  font-weight: 400;
-}
-.roboto_500 {
+  font-size: 0.875rem;
+  line-height: 1.14;
   font-weight: 500;
 }
-/* selectors chosen by font size */
-.font-size14 {
-  font-size: 14px;
+.effsolutions {
+  background-color: #2f303a;
 }
-/* selectors chosen by line height, 
-name code is: lineheight_fontsize */
-.line-height16_14 {
+.effsolutions-h1 {
+  font-size: 2.75rem;
+  line-height: 1.36;
+  font-weight: 900;
+  color: #fff;
+}
+.effsolutions-button {
+  font-size: 1rem;
+  line-height: 1.875;
+  color: #fff;
+  background-color: #2196f3;
+}
+.placeholder-h2 {
+  font-size: 0.875rem;
   line-height: 1.14;
+  font-weight: 700;
 }
-/*other selectors */
-header {
+.placeholder-p {
+  font-size: 0.875rem;
+  line-height: 1.714;
+  font-weight: 400;
+  color: #757575;
+}
+.address-grey {
+  color: #757575;
+}
+.address-white,
+.logo-studio {
+  color: #fff;
+}
+.logo-web {
+  color: #2196f3;
+}
+.header {
   background-color: #fff;
 }
-button {
+.button {
   cursor: pointer;
 }
 .inline {
   display: inline;
 }
-header:focus,
-header:hover,
-button:hover,
-button:hover,
-a:focus,
-a:hover,
-.address:focus,
-.address:hover {
+.highlight:focus,
+.highlight:hover {
   color: #2196f3;
 }
 .underline {
   text-decoration-line: underline;
 }
-
-.buttons button:hover {
+.buttons .button:hover {
   color: #fff;
 }
-.portfolio h2 {
-  font-size: 18px;
+.portfolio-h2 {
+  font-size: 1.125rem;
   line-height: 2;
 }
-.portfolio p {
-  font-size: 16px;
+.portfolio-p {
+  font-size: 1rem;
   line-height: 1.875;
-  font-weight: 400;
-  color: #757575;
-}
-.placeholder h2 {
-  font-size: 14px;
-  line-height: 1.14;
-}
-.placeholder p {
-  font-size: 14px;
-  line-height: 1.714;
   font-weight: 400;
   color: #757575;
 }
 .ourteam {
   background-color: #f5f4fa;
 }
-.ourservices h2,
-.ourteam h2 {
-  font-size: 36px;
+.ourservices-h2,
+.ourteam-h2 {
+  font-size: 2.25rem;
   line-height: 1.17;
-}
-.ourteam h2 {
-  font-size: 36px;
-  line-height: 1.17;
+  font-weight: 700;
 }
 .outeam-div1 {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
   line-height: 1.19;
 }
 .outeam-div2 {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   color: #757575;
   line-height: 1.19;
 }
-.navigation a {
+.navigation {
   font-weight: 500;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 1.14;
 }
-.buttons button {
+.buttons .button {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.625;
 }
-.footer address {
+.footer .address {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 1.71;
 }
 .footer {
   background-color: #2f303a;
 }
-.footer a {
-  color: rgba(255, 255, 255, 0.6);
-}
-.effsolutions {
-  background-color: #2f303a;
-}
-.effsolutions h1 {
-  font-size: 44px;
-  line-height: 1.36;
-  font-weight: 900;
-  color: #fff;
-}
-.effsolutions button {
-  font-size: 16px;
-  line-height: 1.875;
-  color: #fff;
-  background-color: #2196f3;
+.footer .address-grey {
+  color: #fff9;
 }
