@@ -64,10 +64,6 @@ body {
 .inline {
   display: inline;
 }
-.highlight:focus,
-.highlight:hover {
-  color: #2196f3;
-}
 .underline {
   text-decoration-line: underline;
 }
@@ -124,4 +120,8 @@ body {
 }
 .footer .address-grey {
   color: #fff9;
+}
+.highlight:focus,
+.highlight:hover {
+  color: #2196f3;
 }
